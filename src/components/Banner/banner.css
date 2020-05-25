@@ -1,0 +1,63 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: url('../../assets/images/hero_background.jpg') center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: 0;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  background-color: var(--purple-transparent-alt);
+  z-index: -1;
+}
+
+.main-heading {
+  color: #fff;
+  line-height: 1;
+  text-shadow: 1px 1px 1rem rgba(0, 0, 0, .5);
+  margin-bottom: 2.5rem;
+}
+
+.title {
+  font-size: 4.8rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.subtitle {
+  font-size: 3.6rem;
+  font-weight: 300;
+  font-family: 'Courgette', cursive;
+}
+
+.btn { 
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: .9rem;
+  padding-bottom: .9rem;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  border: none;
+  border-radius: 10rem;
+}
+
+.btn-gradient {
+  background-image: var(--gradient-color);
+}
+
+.btn-gradient:hover {
+  background-image: var(--gradient-color-alt);
+}
