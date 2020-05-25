@@ -1,6 +1,8 @@
 import React from 'react';
 import './banner.css';
 
+import InputGroup from '../common/InputGroup/InputGroup';
+
 const Banner = () => {
   return (
     <main>
@@ -10,11 +12,10 @@ const Banner = () => {
             <h1 className="title">Discover</h1>
             <h2 className="subtitle">Luxury hotels</h2>
           </div>
-          <button href="#" className="btn btn-gradient">Explore now
-            <span className="dots"><li className="fast fa-ellipsis"></li></span>
-          </button>
+          <button href="#" className="btn btn-gradient">Explore now</button>
         </div>
       </div>
+      <InputGroup />
     </main>
   )
 }
