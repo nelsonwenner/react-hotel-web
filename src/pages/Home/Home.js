@@ -1,8 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+
+import Header from '../../components/Header/Header';
 
 const Home = () => {
   return (
-    <h1>Hello World</h1>
+    <>
+      <Header />
+    </>
   )
 }
 
