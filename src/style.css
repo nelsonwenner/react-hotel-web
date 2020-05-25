@@ -7,7 +7,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
 }
 
 /*Custom properties*/
@@ -22,7 +21,33 @@
   --gradient-color-alt: linear-gradient(to right, var(--purple-light), var(--yellow-solid));
 }
 
+/*Global styles*/
+html {
+  font-size: 10px;
+}
+
 body {
-  background-color: rgb(38, 39, 40);
-  color: #FFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  background-color: var(--dark-color);
+  color: var(--dark-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/*Reusable styles*/
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
 }
