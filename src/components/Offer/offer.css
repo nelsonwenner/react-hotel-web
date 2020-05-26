@@ -1,0 +1,32 @@
+.offer {
+  background: linear-gradient(to right, rgba(250, 158, 44, .8), rgba(143, 80, 251, .8)), 
+  url('../../assets/images/the_paradise_bg.jpg') bottom center no-repeat;
+  background-size: cover;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.offer-content {
+  background-color: #fff;
+  text-align: center;
+  padding: 5rem 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.discount {
+  background-color: var(--yellow-solid);
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  outline: 2px solid var(--yellow-solid);
+  outline-offset: .5rem;
+} 
+
+.paragraph {
+  color: #a5a5a5;
+  margin-bottom: 2.5rem;
+}

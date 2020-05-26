@@ -1,0 +1,83 @@
+.hotels {
+  background-color: #fff;
+}
+
+.section-head {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.heading {
+  font-size: 4rem;
+  text-transform: uppercase;
+  display: block;
+  padding-top: 2.5rem;
+}
+
+.sub-heading {
+  font-size: 1.7rem;
+  font-family: 'Courgette', cursive;
+  font-weight: 300;
+  color: #a5a5a5;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-gap: 2.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured-hotels {
+  height: 35rem;
+  color: #fff;
+  padding: 1rem;
+  position: relative;
+  z-index: 0;
+}
+
+.featured-hotels::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--purple-transparent-alt);
+  z-index: -1;
+}
+
+.hotel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+.hotel-name {
+  font-size: 2.6rem;
+}
+
+.hotel-price {
+  font-size: 1.8rem;
+}
+
+.hotel-rating {
+  margin: 1rem 0 2.5rem;
+}
+
+.rating {
+  color: var(--yellow-solid);
+}
+
+
