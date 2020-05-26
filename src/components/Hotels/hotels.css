@@ -25,7 +25,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   grid-gap: 2.5rem;
-  padding-bottom: 3rem;
+  padding-bottom: 3.5rem;
 }
 
 .grid-item {
