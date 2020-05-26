@@ -41,6 +41,7 @@
 
 .btn-purple {
   background-color: var(--purple-solid);
+  transition: background-color .5s;
 }
 
 .btn-purple:hover {
