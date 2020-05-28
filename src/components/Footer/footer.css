@@ -42,3 +42,31 @@
   margin-bottom: auto;
 }
 
+/*Media queries*/
+@media screen and (min-width: 768px) { 
+
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-content-brand {
+    margin-bottom: 0;
+    flex: 0 0 60%
+  }
+
+  .footer .paragraph {
+    margin-top: 2.5rem;
+  }
+
+  .footer-heading {
+    margin-bottom: 5rem;
+  }
+
+  .social-media-wrap {
+    flex: 0 0 40%;
+    margin-left: 2.5rem;
+  }
+
+}
+

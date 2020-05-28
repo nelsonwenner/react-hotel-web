@@ -1,6 +1,6 @@
 .contact {
   background-color: #fff;
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
 }
 
 .traveler-wrap {
@@ -10,7 +10,9 @@
 .contact-form {
   width: 100%;
   background-image: var(--gradient-color);
-  padding: 2.5rem;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  padding-top: 2.5rem;
 }
 
 .contact-form .input {
@@ -42,4 +44,27 @@
 
 .contact-form .input:focus + .bar::after {
   transform: scaleX(1);
+}
+
+/*Media queries*/
+@media screen and (min-width: 768px) { 
+
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .traveler-wrap {
+    display: block;
+    flex: 0 0 45%;
+  }
+
+  .traveler-wrap img {
+    width: 100%;
+  }
+
+  .contact-form {
+    flex: 0 0 50%;
+    align-self: flex-start;
+  }
 }

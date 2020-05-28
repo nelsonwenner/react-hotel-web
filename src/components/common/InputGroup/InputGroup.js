@@ -5,8 +5,8 @@ const InputGroup = () => {
   return (
     <section className="booking">
       <div className="container">
-        <form action="" className="form">
-          <div className="input-group pt-15">
+        <form action="" className="form book-form">
+          <div className="input-group">
             <label className="input-label">Destination</label>
             <input type="text" className="input" id="destination"></input>
           </div>

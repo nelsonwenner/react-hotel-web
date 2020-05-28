@@ -4,6 +4,14 @@ import './rooms.css';
 import Room01 from '../../assets/images/room_1.jpg';
 import Room02 from '../../assets/images/room_2.jpg';
 import Room03 from '../../assets/images/room_3.jpg';
+import Room04 from '../../assets/images/room_4.jpg';
+import Room05 from '../../assets/images/room_5.jpg';
+import Room06 from '../../assets/images/room_6.jpg';
+import Room07 from '../../assets/images/room_7.jpg';
+import Room08 from '../../assets/images/room_8.jpg';
+import Room09 from '../../assets/images/room_9.jpg';
+import Room10 from '../../assets/images/room_10.jpg';
+
 
 const Rooms = () => {
   return (
@@ -36,7 +44,7 @@ const Rooms = () => {
               <h5 className="room-name">Astro hotel</h5>
             </div>
             <div className="room-info-wrap">
-              <span className="room-price">$200 
+              <span className="room-price">$450 
                 <span className="per-night">Per night</span>
               </span>
               <p className="paragraph">
@@ -52,7 +60,119 @@ const Rooms = () => {
               <h5 className="room-name">Astro hotel</h5>
             </div>
             <div className="room-info-wrap">
-              <span className="room-price">$200 
+              <span className="room-price">$250 
+                <span className="per-night">Per night</span>
+              </span>
+              <p className="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a className="btn rooms-btn">Book now &rarr;</a>
+            </div>
+          </div>
+          <div className="grid-item featured-rooms">
+            <div className="image-wrap">
+              <img className="room-image" src={ Room04 } />
+              <h5 className="room-name">Astro hotel</h5>
+            </div>
+            <div className="room-info-wrap">
+              <span className="room-price">$600 
+                <span className="per-night">Per night</span>
+              </span>
+              <p className="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a className="btn rooms-btn">Book now &rarr;</a>
+            </div>
+          </div>
+          <div className="grid-item featured-rooms">
+            <div className="image-wrap">
+              <img className="room-image" src={ Room05 } />
+              <h5 className="room-name">Astro hotel</h5>
+            </div>
+            <div className="room-info-wrap">
+              <span className="room-price">$300 
+                <span className="per-night">Per night</span>
+              </span>
+              <p className="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a className="btn rooms-btn">Book now &rarr;</a>
+            </div>
+          </div>
+          <div className="grid-item featured-rooms">
+            <div className="image-wrap">
+              <img className="room-image" src={ Room06 } />
+              <h5 className="room-name">Astro hotel</h5>
+            </div>
+            <div className="room-info-wrap">
+              <span className="room-price">$400 
+                <span className="per-night">Per night</span>
+              </span>
+              <p className="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a className="btn rooms-btn">Book now &rarr;</a>
+            </div>
+          </div>
+          <div className="grid-item featured-rooms">
+            <div className="image-wrap">
+              <img className="room-image" src={ Room07 } />
+              <h5 className="room-name">Astro hotel</h5>
+            </div>
+            <div className="room-info-wrap">
+              <span className="room-price">$400 
+                <span className="per-night">Per night</span>
+              </span>
+              <p className="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a className="btn rooms-btn">Book now &rarr;</a>
+            </div>
+          </div>
+          <div className="grid-item featured-rooms">
+            <div className="image-wrap">
+              <img className="room-image" src={ Room08 } />
+              <h5 className="room-name">Astro hotel</h5>
+            </div>
+            <div className="room-info-wrap">
+              <span className="room-price">$400 
+                <span className="per-night">Per night</span>
+              </span>
+              <p className="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a className="btn rooms-btn">Book now &rarr;</a>
+            </div>
+          </div>
+          <div className="grid-item featured-rooms">
+            <div className="image-wrap">
+              <img className="room-image" src={ Room09 } />
+              <h5 className="room-name">Astro hotel</h5>
+            </div>
+            <div className="room-info-wrap">
+              <span className="room-price">$400 
+                <span className="per-night">Per night</span>
+              </span>
+              <p className="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a className="btn rooms-btn">Book now &rarr;</a>
+            </div>
+          </div>
+          <div className="grid-item featured-rooms">
+            <div className="image-wrap">
+              <img className="room-image" src={ Room10 } />
+              <h5 className="room-name">Astro hotel</h5>
+            </div>
+            <div className="room-info-wrap">
+              <span className="room-price">$400 
                 <span className="per-night">Per night</span>
               </span>
               <p className="paragraph">

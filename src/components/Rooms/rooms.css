@@ -57,3 +57,22 @@
 .rooms-btn:hover {
   color: var(--yellow-solid);
 }
+
+
+/*Media queries*/
+@media screen and (min-width: 1000px) { 
+
+  .rooms-grid {
+    grid-row: repeat(auto-fit, minmax(40rem, 1fr));
+  }
+
+  .featured-rooms {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .room-info-wrap {
+    margin-left: 1.5rem;
+  }
+
+}

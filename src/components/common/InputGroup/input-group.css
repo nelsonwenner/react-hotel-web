@@ -2,14 +2,6 @@
   background-image: var(--gradient-color);
 }
 
-.pt-15 {
-  padding-top: 2rem;
-}
-
-.input-group {
-  padding-bottom: 1.5rem;
-}
-
 .input-label {
   display: block;
   font-size: 1.3rem;
@@ -47,3 +39,30 @@
 .btn-purple:hover {
   background-color: #56247f;
 }
+
+@media screen and (min-width: 1000px) { 
+
+  .book-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .input
+  .options {
+    min-width: 10rem;
+  }
+}
+
+
+@media screen and (min-width: 1200px) { 
+
+  .book-form .input-group:first-child {
+    flex: 0 0 30%;
+  }
+}
+
