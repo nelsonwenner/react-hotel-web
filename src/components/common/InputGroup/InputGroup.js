@@ -7,19 +7,19 @@ const InputGroup = () => {
       <div className="container">
         <form action="" className="form">
           <div className="input-group pt-15">
-            <label for="destination" className="input-label">Destination</label>
+            <label className="input-label">Destination</label>
             <input type="text" className="input" id="destination"></input>
           </div>
           <div className="input-group">
-            <label for="check-in" className="input-label">Check in</label>
+            <label className="input-label">Check in</label>
             <input type="date" className="input" id="check-in"></input>
           </div>
           <div className="input-group">
-            <label for="check-out" className="input-label">Check out</label>
+            <label className="input-label">Check out</label>
             <input type="date" className="input" id="check-out" />
           </div>
           <div className="input-group">
-            <label for="adults" className="input-label">Adults</label>
+            <label className="input-label">Adults</label>
             <select className="options" id="adults">
               <option value="0">0</option>
               <option value="0">1</option>
@@ -30,7 +30,7 @@ const InputGroup = () => {
             </select>
           </div>
           <div className="input-group">
-            <label for="children" className="input-label">Children</label>
+            <label className="input-label">Children</label>
             <select className="options" id="children">
               <option value="0">0</option>
               <option value="0">1</option>
