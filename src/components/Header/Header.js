@@ -9,6 +9,11 @@ const Header = () => {
     let header = document.querySelector('.header');
     let boxMenu = document.querySelector('.box-menu');
 
+    window.addEventListener('scroll', (event) => {
+      let windowPosition = window.scrollY > 0;
+      header.classList.toggle('active', windowPosition);
+    });
+
     boxMenu.addEventListener('click', (event) => {
       header.classList.toggle('menu-open');
     })

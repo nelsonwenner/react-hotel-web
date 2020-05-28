@@ -11,6 +11,10 @@
   z-index: 999;
 }
 
+.header.active {
+  background-color: var(--purple-solid);
+}
+
 .nav {
   display: flex;
   flex-direction: row;
