@@ -24,7 +24,7 @@ const Rooms = () => {
         <div className="grid rooms-grid">
           <div className="grid-item featured-rooms">
             <div className="image-wrap">
-              <img className="room-image" src={ Room01 } />
+              <img className="room-image" src={ Room01 } alt="image01" />
               <h5 className="room-name">Astro hotel</h5>
             </div>
             <div className="room-info-wrap">
@@ -35,12 +35,12 @@ const Rooms = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                 incididunt ut labore et dolore magna aliqua.
               </p>
-              <a className="btn rooms-btn">Book now &rarr;</a>
+              <button className="btn rooms-btn">Book now &rarr;</button>
             </div>
           </div>
           <div className="grid-item featured-rooms">
             <div className="image-wrap">
-              <img className="room-image" src={ Room02 } />
+              <img className="room-image" src={ Room02 } alt="image02" />
               <h5 className="room-name">Astro hotel</h5>
             </div>
             <div className="room-info-wrap">
@@ -51,12 +51,12 @@ const Rooms = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                 incididunt ut labore et dolore magna aliqua.
               </p>
-              <a className="btn rooms-btn">Book now &rarr;</a>
+              <button className="btn rooms-btn">Book now &rarr;</button>
             </div>
           </div>
           <div className="grid-item featured-rooms">
             <div className="image-wrap">
-              <img className="room-image" src={ Room03 } />
+              <img className="room-image" src={ Room03 } alt="image03" />
               <h5 className="room-name">Astro hotel</h5>
             </div>
             <div className="room-info-wrap">
@@ -67,12 +67,12 @@ const Rooms = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                 incididunt ut labore et dolore magna aliqua.
               </p>
-              <a className="btn rooms-btn">Book now &rarr;</a>
+              <button className="btn rooms-btn">Book now &rarr;</button>
             </div>
           </div>
           <div className="grid-item featured-rooms">
             <div className="image-wrap">
-              <img className="room-image" src={ Room04 } />
+              <img className="room-image" src={ Room04 } alt="image04" />
               <h5 className="room-name">Astro hotel</h5>
             </div>
             <div className="room-info-wrap">
@@ -83,12 +83,12 @@ const Rooms = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                 incididunt ut labore et dolore magna aliqua.
               </p>
-              <a className="btn rooms-btn">Book now &rarr;</a>
+              <button className="btn rooms-btn">Book now &rarr;</button>
             </div>
           </div>
           <div className="grid-item featured-rooms">
             <div className="image-wrap">
-              <img className="room-image" src={ Room05 } />
+              <img className="room-image" src={ Room05 } alt="image05" />
               <h5 className="room-name">Astro hotel</h5>
             </div>
             <div className="room-info-wrap">
@@ -99,12 +99,12 @@ const Rooms = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                 incididunt ut labore et dolore magna aliqua.
               </p>
-              <a className="btn rooms-btn">Book now &rarr;</a>
+              <button className="btn rooms-btn">Book now &rarr;</button>
             </div>
           </div>
           <div className="grid-item featured-rooms">
             <div className="image-wrap">
-              <img className="room-image" src={ Room06 } />
+              <img className="room-image" src={ Room06 } alt="image06" />
               <h5 className="room-name">Astro hotel</h5>
             </div>
             <div className="room-info-wrap">
@@ -115,12 +115,12 @@ const Rooms = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                 incididunt ut labore et dolore magna aliqua.
               </p>
-              <a className="btn rooms-btn">Book now &rarr;</a>
+              <button className="btn rooms-btn">Book now &rarr;</button>
             </div>
           </div>
           <div className="grid-item featured-rooms">
             <div className="image-wrap">
-              <img className="room-image" src={ Room07 } />
+              <img className="room-image" src={ Room07 } alt="image07" />
               <h5 className="room-name">Astro hotel</h5>
             </div>
             <div className="room-info-wrap">
@@ -131,12 +131,12 @@ const Rooms = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                 incididunt ut labore et dolore magna aliqua.
               </p>
-              <a className="btn rooms-btn">Book now &rarr;</a>
+              <button className="btn rooms-btn">Book now &rarr;</button>
             </div>
           </div>
           <div className="grid-item featured-rooms">
             <div className="image-wrap">
-              <img className="room-image" src={ Room08 } />
+              <img className="room-image" src={ Room08 } alt="image08" />
               <h5 className="room-name">Astro hotel</h5>
             </div>
             <div className="room-info-wrap">
@@ -147,12 +147,12 @@ const Rooms = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                 incididunt ut labore et dolore magna aliqua.
               </p>
-              <a className="btn rooms-btn">Book now &rarr;</a>
+              <button className="btn rooms-btn">Book now &rarr;</button>
             </div>
           </div>
           <div className="grid-item featured-rooms">
             <div className="image-wrap">
-              <img className="room-image" src={ Room09 } />
+              <img className="room-image" src={ Room09 } alt="image09" />
               <h5 className="room-name">Astro hotel</h5>
             </div>
             <div className="room-info-wrap">
@@ -163,12 +163,12 @@ const Rooms = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                 incididunt ut labore et dolore magna aliqua.
               </p>
-              <a className="btn rooms-btn">Book now &rarr;</a>
+              <button className="btn rooms-btn">Book now &rarr;</button>
             </div>
           </div>
           <div className="grid-item featured-rooms">
             <div className="image-wrap">
-              <img className="room-image" src={ Room10 } />
+              <img className="room-image" src={ Room10 } alt="image10" />
               <h5 className="room-name">Astro hotel</h5>
             </div>
             <div className="room-info-wrap">
@@ -179,7 +179,7 @@ const Rooms = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                 incididunt ut labore et dolore magna aliqua.
               </p>
-              <a className="btn rooms-btn">Book now &rarr;</a>
+              <button className="btn rooms-btn">Book now &rarr;</button>
             </div>
           </div>
         </div>

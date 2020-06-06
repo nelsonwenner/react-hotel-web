@@ -13,7 +13,7 @@ const Contact = () => {
         </h5>
         <div className="contact-content">
           <div className="traveler-wrap">
-            <img src={ Traveler } />
+            <img alt="traveler" src={ Traveler } />
           </div>
           <form action="" className="form contact-form">
             <div className="input-group-wrap">

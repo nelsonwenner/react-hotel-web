@@ -24,7 +24,7 @@ const Header = () => {
       <div className="container">
         <nav className="nav">
           <a href="/" className="logo">
-            <img src={logo}></img>
+            <img alt="logo" src={logo}></img>
           </a>
           <div className="box-menu">
             <i className="fas fa-bars"></i>
@@ -35,16 +35,16 @@ const Header = () => {
               <a href="/" className="nav-link">Home</a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">About</a>
+              <a href="/About" className="nav-link">About</a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">Offers</a>
+              <a href="/Offers" className="nav-link">Offers</a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">News</a>
+              <a href="/News" className="nav-link">News</a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">Contact</a>
+              <a href="/Contact" className="nav-link">Contact</a>
             </li>
           </ul>
         </nav>
