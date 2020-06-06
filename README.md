@@ -27,23 +27,29 @@
 * [ReactJS](https://reactjs.org/)
 * [Node](https://nodejs.org/en/)
 
-## Getting Started
+## :information_source: Getting Started
 
 1. Fork this repository and clone it on your machine.
 2. Change the directory to `react-hotel-web` where you cloned it.
-3. Install dependencies.
+3. Create `.env` of the system
+   
+```bash
+$ cp .env.example .env
+```
+
+4. Install dependencies.
    
 ```bash
 $ npm install
 ```
 
-4. Run project react-hotel-web
+5. Run project react-hotel-web
    
 ```bash
 $ npm start
 ```
 
-5. Open react-hotel-web, the host [localhost:8000](http://localhost:8000) 
+6. Open react-hotel-web, the host [localhost:8000](http://localhost:8000) 
 
 ## :memo: License
 This project is under the MIT license. See the [LICENSE](LICENSE.md) for more information.
