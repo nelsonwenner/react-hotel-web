@@ -20,11 +20,11 @@ const Footer = () => {
           <div className="social-media-wrap">
             <h4 className="footer-heading">Follow us</h4>
             <div className="social-media">
-              <a href="#" className="sm-link"><i className="fab fa-twitter"></i></a>
-              <a href="#" className="sm-link"><i className="fab fa-facebook-square"></i></a>
-              <a href="#" className="sm-link"><i className="fab fa-instagram"></i></a>
-              <a href="#" className="sm-link"><i className="fab fa-pinterest"></i></a>
-              <a href="#" className="sm-link"><i className="fab fa-tripadvisor"></i></a>
+              <span className="sm-link"><i className="fab fa-twitter"></i></span>
+              <span className="sm-link"><i className="fab fa-facebook-square"></i></span>
+              <span className="sm-link"><i className="fab fa-instagram"></i></span>
+              <span className="sm-link"><i className="fab fa-pinterest"></i></span>
+              <span className="sm-link"><i className="fab fa-tripadvisor"></i></span>
             </div>
           </div>
         </div>
