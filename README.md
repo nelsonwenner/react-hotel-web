@@ -22,6 +22,10 @@
   <a href="#license">License</a>
 </p>
 
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/40550247/83934170-0c798180-a785-11ea-8332-99d38732a996.png" />
+</div>
+
 ## :rocket: Technologies
 
 * [ReactJS](https://reactjs.org/)
